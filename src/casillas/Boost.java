@@ -11,7 +11,7 @@ public class Boost extends Casilla {
     private int valor;
 
     public Boost(String nombreBoost) {
-        super("BOOST", elegirDescripcion(nombreBoost));
+        super("Boost", elegirDescripcion(nombreBoost));
         this.nombreBoost = nombreBoost;
         Random rand = new Random();
         this.valor = rand.nextInt(6) + 1;
@@ -62,6 +62,6 @@ public class Boost extends Casilla {
     }
     @Override
     public String toString() {
-        return "BOOST " + nombreBoost + " - " + getDescripcion();
+        return "Boost " + nombreBoost + " - " + getDescripcion();
     }
 }
