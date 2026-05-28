@@ -39,7 +39,7 @@ public class Maquina extends Personaje{
     }
     @Override
     public String toString() {
-        return "Maquina/" + dificultad + " " + super.toString();
+        return "Maquina-" + dificultad + " " + super.toString();
     }
 
 

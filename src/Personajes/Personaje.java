@@ -60,8 +60,11 @@ public class Personaje {
 
         this.posicion = this.posicion + dado ;
     }
+    public int tirarDado() {
+        return (int)(Math.random() * 6) + 1;
+    }
     @Override
     public String toString() {
-        return nombre + "Posicion: " + posicion + " Vidas: " + vidas;
+        return nombre + " Posicion: " + posicion + " Vidas: " + vidas;
     }
 }

@@ -4,14 +4,14 @@ public class Marcador {
 
     private String nombreJugador;
     private int victoriasJugador;
-    private int victoriasIA;
+    private int victoriasMaquina;
     private int empates;
     private int partidasJugadas;
 
     public Marcador(String nombreJugador) {
         this.nombreJugador = nombreJugador;
         this.victoriasJugador = 0;
-        this.victoriasIA = 0;
+        this.victoriasMaquina = 0;
         this.empates = 0;
         this.partidasJugadas = 0;
     }
@@ -25,7 +25,7 @@ public class Marcador {
     }
 
     public int getVictoriasIA() {
-        return victoriasIA;
+        return victoriasMaquina;
     }
 
     public int getEmpates() {
@@ -41,8 +41,8 @@ public class Marcador {
         partidasJugadas++;
     }
 
-    public void registrarVictoriaIA() {
-        victoriasIA++;
+    public void registrarVictoriaMaquina() {
+        victoriasMaquina++;
         partidasJugadas++;
     }
 
@@ -55,11 +55,11 @@ public class Marcador {
         System.out.println("Marcador");
         System.out.println("Partidas jugadas: " + partidasJugadas);
         System.out.println(nombreJugador + " : " + victoriasJugador + " victorias");
-        System.out.println("Dragon-Bot" + victoriasIA + " victorias");
+        System.out.println("Dragon: " + victoriasMaquina+ " victorias");
     }
 
     @Override
     public String toString() {
-        return nombreJugador + " : " + victoriasJugador + "  Dragon-Bot: " + victoriasIA + "  Empates: " + empates;
+        return nombreJugador + " : " + victoriasJugador + "  Dragon:  " + victoriasMaquina + "  Empates: " + empates;
     }
 }
