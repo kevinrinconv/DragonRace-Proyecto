@@ -1,5 +1,5 @@
 # Dragon Race
-Videojuego de carreras por turnos desarrollado en Java, como proyecto final de la asignatura Lógica y Programación del Instituto Tecnológico Metropolitano — ITM.
+Videojuego de carreras por turnos desarrollado en Java, como proyecto final de la asignatura Lógica de Programación y laboratorio del Instituto Tecnológico Metropolitano — ITM.
 
 
 ## Descripcion
