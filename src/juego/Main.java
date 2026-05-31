@@ -81,7 +81,7 @@ public class Main {
                System.out.println("Gana: " + jugador.getNombre() + "  ");
                marcador.registrarVictoriaJugador();
            } else {
-               System.out.println("GANA: Dragon");
+               System.out.println("Gana: Dragon");
                marcador.registrarVictoriaMaquina();
            }
            marcador.mostrarMarcador();
