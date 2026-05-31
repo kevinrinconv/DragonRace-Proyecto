@@ -3,7 +3,7 @@ Videojuego de carreras por turnos desarrollado en Java, como proyecto final de l
 
 
 ## Descripcion
-Dragon Race es un juego de carreras donde el jugador compite contra una IA (el Dragón) a lo largo de un mapa generado aleatoriamente. En cada turno se tira un dado, se avanza por el mapa y se activan casillas que pueden ayudar o perjudicar al corredor. Gana quien llegue primero a la meta o quien deje al rival sin vidas.
+Dragon Race es un juego de carreras donde el jugador compite contra una Mauina(el Dragón) a lo largo de un mapa generado aleatoriamente. En cada turno se tira un dado, se avanza por el mapa y se activan casillas que pueden ayudar o perjudicar al corredor. Gana quien llegue primero a la meta o quien deje al rival sin vidas.
 
 
 ## ¿Como se juega?
