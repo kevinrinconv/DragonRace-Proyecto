@@ -19,6 +19,6 @@ Dragon Race es un juego de carreras donde el jugador compite contra una Mauina(e
 6. Al terminar puedes jugar otra partida y el marcador acumula los resultados
 
 ## Realizado por:
-Kevin Alejandro Rincon Valencia
+Kevin Alejandro Rincon Valencia - 
 Nicolle Selena Goez Sanchez
 
