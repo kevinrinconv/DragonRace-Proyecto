@@ -17,14 +17,18 @@ public class Mapa {
 
         casillas[0] = new Casilla("Inicio", "Punto de partida");
         casillas[0].setPosicionEnMapa(0);
+        String[] obstaculos = {"Trampa de Runas", "Aliento de Dragon", "Pantano Magico", "Portal Roto"};
+        String[] boosts = {"Escoba Voladora", "Pocion de Velocidad", "Escudo Magico", "Amuleto de Vida"};
 
         for (int i = 1; i < longitud - 1; i++) {
             int numero = (int)(Math.random() * 3);
 
             if (numero == 0) {
-                casillas[i] = new Obstaculo("Aliento de Dragon");
+                String name = obstaculos[(int)(Math.random() * obstaculos.length)];
+                casillas[i] = new Obstaculo(name);
             } else if (numero == 1) {
-                casillas[i] = new Boost("Escudo Magico");
+                String name = boosts[(int)(Math.random() * boosts.length)];
+                casillas[i] = new Boost(name);
             } else {
                 casillas[i] = new Casilla("Normal", "Camino libre");
             }

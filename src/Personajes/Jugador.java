@@ -34,5 +34,4 @@ public class Jugador extends Personaje{
     public String toString() {
         return "JUGADOR " + super.toString();
     }
-
 }
