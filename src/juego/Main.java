@@ -46,7 +46,7 @@ public class Main {
                        sc.nextLine();
                    }
                    int dado = corredor.tirarDado();
-
+                   System.out.println("numero dado:"+dado);
                    corredor.mover(dado);
                    if (corredor.getPosicion() >= meta) {
                        corredor.setPosicion(meta);
